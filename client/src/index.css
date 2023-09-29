@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.top-left{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.top-card{
+  margin:10px 0 0 20px;
+  color: #806a78;
+}
+
