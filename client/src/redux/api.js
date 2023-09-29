@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: "https://tour-app-q3mb.onrender.com" });
+const API = axios.create({ baseURL: "https://tour-appp.onrender.com" });
 
 API.interceptors.request.use((config) => {
     if (localStorage.getItem("profile")) {
